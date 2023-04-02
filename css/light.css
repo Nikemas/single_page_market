@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+
+.header{
+    font-size: 22px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    
+    margin: 0;
+}
+
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+}
+
+/* li::before{
+    content: '';
+    height: 50px;
+    color: black;
+    border: 1px solid #000000;
+    margin-right: 70px;
+} */
+
+
+li input{
+    width: 333px;
+    height: 29px;
+    justify-content: center;
+}
+
+li input::placeholder{
+    text-align: center; 
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+}
+.disc::before{
+    content: '';
+    height: 50px;
+    color: black;
+    border: 1px solid #000000;
+    margin-right: 120px;
+}
+.company{
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 0.64em;
+}
+.company::before{
+    content: '';
+    height: 50px;
+    color: black;
+    border: 1px solid #000000;
+    margin-right: 100px;
+}
+.company::after{
+    content: '';
+    height: 50px;
+    color: black;
+    border: 1px solid #000000;
+    margin-left: 100px;
+}
+.search{
+    position: relative;
+}
+.search input{
+    border-radius: 48px;
+    background: #E7E7E7;
+    border: 1px solid #000000;
+    outline: none;
+    position: relative;
+    padding: 0 0 0 50px;
+}
+
+.search::before{
+    content: '';
+    background: url('../assets/light/search.svg');
+    z-index: 5;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    position: absolute;
+    top: 16px;
+    left: 15px;
+}
+.card{
+    margin-right: 50px;
+}
+.card::before{
+    content: '';
+    height: 50px;
+    color: black;
+    border: 1px solid #000000;
+    margin-right: 30px;
+}
+.images__list{
+    display: flex;
+    padding-right: 12px;
+    margin: 0
+}
+.images__list li{
+    margin-right: 20px;
+}
+.images__list li::before{
+    content: '';
+    height: 50px;
+    color: black;
+    border: 1px solid #000000;
+    margin-right: 10px;
+}
